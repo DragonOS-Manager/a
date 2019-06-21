@@ -22,7 +22,7 @@
 	  if ('serviceWorker' in navigator) {
  	navigator.serviceWorker
  	.register('./sw.js')
- 	.then(function(success) {console.log('Service Worker Registered'); },function(failure){console.log(failure.toString());});
+ 	.then(function(success) {console.log(success.toString()); },function(failure){console.log(failure.toString());});
  	}
 </script>
   </head>
