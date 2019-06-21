@@ -7,7 +7,9 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "img/icon.bin"
+      "src": "img/icon.bin",
+      "sizes": "120x120",
+      "type": "image/png"
     }
   ]
 }
